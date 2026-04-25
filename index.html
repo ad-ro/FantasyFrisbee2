@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Disc Golf League</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🥏 Fantasy Disc Golf League</h1>
+            <p class="subtitle">2025 Season Standings</p>
+            <div id="last-updated"></div>
+        </header>
+
+        <section class="standings">
+            <h2>Current Standings</h2>
+            <div id="standings-table"></div>
+        </section>
+
+        <section class="player-stats">
+            <h2>Player Performance Leaderboard</h2>
+            <div class="stats-controls">
+                <button class="stats-btn active" id="btn-all" onclick="showAllPlayers()">All Players</button>
+                <button class="stats-btn" id="btn-counted" onclick="showCountedOnly()">Counted Players Only</button>
+                <button class="stats-btn" id="btn-underdogs" onclick="showUnderdogs()">Underdogs</button>
+            </div>
+            <div id="player-stats-table"></div>
+        </section>
+
+        <section class="weekly-results-view">
+            <h2>Individual Weekly Results</h2>
+            <p>Select a week to see how every player on the roster performed.</p>
+            <div class="controls" style="margin-bottom: 15px;">
+                <label for="week-selector"><strong>Select Week: </strong></label>
+                <select id="week-selector" onchange="updateWeeklyView()" style="padding: 5px; border-radius: 4px;">
+                    </select>
+            </div>
+            <div id="weekly-view-table"></div>
+        </section>
+
+        <section class="teams">
+            <h2>Team Rosters</h2>
+            <div id="team-rosters"></div>
+        </section>
+
+        <section class="weekly-breakdown">
+            <h2>Weekly Team Score Breakdown</h2>
+            <div id="weekly-breakdown"></div>
+        </section>
+
+        <footer>
+            <p>Data sourced from PDGA • Updated weekly via Python Scraper</p>
+            <p class="rules-link"><a href="#rules" onclick="toggleRules()">View League Rules</a></p>
+        </footer>
+
+        <div id="rules-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="toggleRules()">&times;</span>
+                <h2>League Rules</h2>
+                <ul>
+                    <li>Each owner has a roster of players.</li>
+                    <li><strong>Weekly Scoring:</strong> Only the best 3 adjusted scores count toward the team total.</li>
+                    <li><strong>Underdogs:</strong> Designated players receive a 0.5x multiplier on their placement (lower is better).</li>
+                    <li><strong>Event Multipliers:</strong> Majors (2x), Elite Series/Silver (1.5x), others (1x).</li>
+                    <li>Lower total cumulative score wins the season.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
