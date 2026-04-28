@@ -362,7 +362,7 @@ if __name__ == "__main__":
     print(roster_pdga_numbers)
     # Two rosters, one named Adam, one named Greg. 
     named_roster = get_roster_dict_by_owner('rosters.json')
-    week_number = 5
+    week_number = 6
     for t in tournaments_array[:week_number]:
         scrape_pdga_mpo_results(t['event_id'],named_roster)
     event_score(named_roster,tournaments_array)
