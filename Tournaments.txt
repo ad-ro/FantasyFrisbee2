@@ -4,7 +4,7 @@
 97336,PDGA Champions Cup,M,
 96404,Jonesboro Open,ES,
 96407,Kansas City Wide Open,ES,
-96408,The Open at Austin,
+96408,The Open at Austin,ESP
 96409,OTB Open,ESP,
 96410,Northwest Championship,ESP,
 97339,European Open,M,
