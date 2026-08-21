@@ -120,7 +120,7 @@ function setupWeeklyDropdown(totalData) {
     const selector = document.getElementById('week-selector');
     if (!selector) return;
 
-    const maxWeeks = totalData.length;
+    const maxWeeks = 12;
     selector.innerHTML = '';
     
     if (maxWeeks === 0) {
