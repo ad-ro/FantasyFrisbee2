@@ -1,15 +1,14 @@
-Team Owner,Name,PDGA#,Rating,Current,Official,City,State,Country
-Greg,Simon Lizotte,8332,1033,,,Grafton,MA,United States
-Greg,Aaron Gossage,35449,1040,,,Grand Jct,CO,United States
-Greg,Ezra Robinson,50671,1038,,,Lawrenceville,GA,United States
-Adam,Austin Turner,54049,1028,,,Mint Hill,NC,United States
-Greg,Adam Hammes,57365,1039,,,Minocqua,WI,United States
-Adam,Sullivan Tipton,78817,1042,,,Birmingham,AL,United States
-Adam,Cole Redalen,79748,1034,,,Portland,OR,United States
-Greg,Gavin Babcock,80331,1037,,,Altoona,IA,United States
-Adam,Kyle Klein,85132,1041,,,Grand Haven,MI,United States
-Adam,Niklas Anttila,91249,1047,,,Kuopio,,Finland
-Greg,Ezra Aderhold,121715,1028,,,Aberdeen,SD,United States
-Adam,Harry Chace,131546,1027,,,East Greenwich,RI,United States
-Adam,Paul Krans,132521,1033,,,Dudley,MA,United States
-Greg,Calvin Lonnquist,145206,1017,,,Corcoran,MN,United States
+Team Owner,Place,Name,PDGA#,Rating,Par,Rd1,,Rd2,,Rd3,,Finals,,Total,Prize
+Adam,3,Sullivan Tipton,78817,1039,-23,58,1046,58,1075,64,1049,59,1048,239,"$5,800"
+Greg,4,Adam Hammes,57365,1037,-17,57,1053,63,1052,66,1039,59,1048,245,"$4,700"
+Greg,5,Simon Lizotte,8332,1031,-16,62,1019,63,1052,67,1035,54,1080,246,"$3,500"
+Adam,12,Cole Redalen,79748,1036,-12,60,1032,61,1061,67,1035,62,1028,250,"$1,900"
+Adam,17,Paul Krans,132521,1034,-9,57,1053,70,1018,66,1039,60,1041,253,"$1,500"
+Greg,17,Gavin Babcock,80331,1038,-9,54,1073,64,1047,75,998,60,1041,253,"$1,500"
+Greg,33,Aaron Gossage,35449,1037,-1,55,1066,72,1009,73,1007,61,1035,261,$950
+Greg,48,Ezra Robinson,50671,1038,+4,60,1032,68,1028,73,1007,65,1009,266,$701
+Greg,63,Ezra Aderhold,121715,1023,+7,64,1005,75,994,69,1026,61,1035,269,$131
+Adam,68,Kyle Klein,85132,1038,+8,60,1032,69,1023,73,1007,68,990,270,
+Adam,78,Harry Chace,131546,1026,+13,65,998,70,1018,72,1012,68,990,275,
+Adam,78,Austin Turner,54049,1030,+13,58,1046,73,1004,73,1007,71,971,275,
+Greg,85,Calvin Lonnquist,145206,1017,+16,64,1005,73,1004,74,1003,67,996,278,
