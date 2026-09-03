@@ -50,7 +50,7 @@ def get_roster_pdga_numbers(json_filepath):
             
     return pdga_numbers
 
-def scrape_pdga_mpo_results(event_id,valid_pdga_numbers):
+def scrape_pdga_mpo_results(event_id, valid_pdga_numbers):
     # Construct the URL based on the event ID
     url = f"https://www.pdga.com/tour/event/{event_id}"
     headers = {
@@ -84,11 +84,25 @@ def scrape_pdga_mpo_results(event_id,valid_pdga_numbers):
         print(f"Could not find the results table inside the MPO section for event {event_id}.")
         return
 
+    # Extract original HTML headers
+    headers_html = results_table.find_all('th')
+    raw_headers = [th.get_text(strip=True) for th in headers_html]
+    
+    # Find indices for 'Pool' (if it exists) and 'PDGA#'
+    pool_idx = raw_headers.index('Pool') if 'Pool' in raw_headers else -1
+    
+    if 'PDGA#' not in raw_headers:
+        print(f"Could not find PDGA# column for event {event_id}.")
+        return
+        
+    pdga_idx = raw_headers.index('PDGA#')
+
     # Prepare file for writing
     filename = f"Tournament_results/pdga_event_{event_id}_MPO_results.csv"
-    headers_html = results_table.find_all('th')
-    header_labels = ['Team Owner'] + [th.get_text(strip=True) for th in headers_html]
-    pdga_idx = header_labels.index('PDGA#')-1
+    
+    # Build final headers excluding 'Pool'
+    header_labels = ['Team Owner'] + [h for h in raw_headers if h != 'Pool']
+    
     with open(filename, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(header_labels) # Write the headers
@@ -97,12 +111,26 @@ def scrape_pdga_mpo_results(event_id,valid_pdga_numbers):
         for row in rows:
             cols = row.find_all('td')
             if cols:
-                row_data = [ele.get_text(strip=True) for ele in cols]         
+                row_data_raw = [ele.get_text(strip=True) for ele in cols] 
+                
+                # Safety check to ensure the row has enough columns
+                if len(row_data_raw) <= pdga_idx:
+                    continue
+                    
+                current_pdga = row_data_raw[pdga_idx]
+                
                 # Only write the row if the player's PDGA # is in our list
-                for key in valid_pdga_numbers:
-                    if row_data[pdga_idx] in valid_pdga_numbers[key]:
-                        row_data = [key] + [ele.get_text(strip=True) for ele in cols]
+                for key, pdga_list in valid_pdga_numbers.items():
+                    if current_pdga in pdga_list:
+                        
+                        # Remove the Pool column from this row if it was found in the headers
+                        if pool_idx != -1 and len(row_data_raw) > pool_idx:
+                            row_data_raw.pop(pool_idx)
+                            
+                        # Prepend the Team Owner key and write to CSV
+                        row_data = [key] + row_data_raw
                         writer.writerow(row_data)
+                        break # Exit the inner loop once the player is found
 
     print(f"Successfully wrote MPO results to {filename}")
 
