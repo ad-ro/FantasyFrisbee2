@@ -8,9 +8,9 @@
           "name": "Niklas Anttila",
           "pdga_number": 91249,
           "is_underdog": false,
-          "season_total": 106.0,
-          "tournaments_played": 9,
-          "times_counted": 5,
+          "season_total": 128.0,
+          "tournaments_played": 11,
+          "times_counted": 7,
           "weekly_scores": [
             15.0,
             "x",
@@ -26,8 +26,8 @@
             6.0,
             20.0,
             "x",
-            "x",
-            "x",
+            6.0,
+            16.0,
             "x",
             "x"
           ]
@@ -36,9 +36,9 @@
           "name": "Kyle Klein",
           "pdga_number": 85132,
           "is_underdog": false,
-          "season_total": 492.0,
-          "tournaments_played": 12,
-          "times_counted": 4,
+          "season_total": 606.0,
+          "tournaments_played": 15,
+          "times_counted": 5,
           "weekly_scores": [
             4.0,
             41.0,
@@ -53,9 +53,9 @@
             68.0,
             112.0,
             59.0,
-            "x",
-            "x",
-            "x",
+            13.0,
+            29.0,
+            72.0,
             "x",
             "x"
           ]
@@ -64,9 +64,9 @@
           "name": "Sullivan Tipton",
           "pdga_number": 78817,
           "is_underdog": false,
-          "season_total": 171.0,
-          "tournaments_played": 12,
-          "times_counted": 8,
+          "season_total": 204.0,
+          "tournaments_played": 15,
+          "times_counted": 11,
           "weekly_scores": [
             5.0,
             21.0,
@@ -81,9 +81,9 @@
             3.0,
             4.0,
             34.0,
-            "x",
-            "x",
-            "x",
+            2.0,
+            19.0,
+            12.0,
             "x",
             "x"
           ]
@@ -92,8 +92,8 @@
           "name": "Austin Turner",
           "pdga_number": 54049,
           "is_underdog": false,
-          "season_total": 407.0,
-          "tournaments_played": 13,
+          "season_total": 516.0,
+          "tournaments_played": 16,
           "times_counted": 6,
           "weekly_scores": [
             50.0,
@@ -109,9 +109,9 @@
             78.0,
             2.0,
             8.0,
-            "x",
-            "x",
-            "x",
+            28.0,
+            42.0,
+            39.0,
             "x",
             "x"
           ]
@@ -120,9 +120,9 @@
           "name": "Cole Redalen",
           "pdga_number": 79748,
           "is_underdog": false,
-          "season_total": 397.0,
-          "tournaments_played": 12,
-          "times_counted": 6,
+          "season_total": 449.0,
+          "tournaments_played": 15,
+          "times_counted": 8,
           "weekly_scores": [
             84.0,
             "x",
@@ -137,9 +137,9 @@
             12.0,
             36.0,
             12.0,
-            "x",
-            "x",
-            "x",
+            13.0,
+            9.0,
+            30.0,
             "x",
             "x"
           ]
@@ -148,8 +148,8 @@
           "name": "Paul Krans",
           "pdga_number": 132521,
           "is_underdog": false,
-          "season_total": 315.0,
-          "tournaments_played": 12,
+          "season_total": 463.0,
+          "tournaments_played": 15,
           "times_counted": 6,
           "weekly_scores": [
             28.0,
@@ -165,9 +165,9 @@
             17.0,
             5.0,
             51.0,
-            "x",
-            "x",
-            "x",
+            42.0,
+            50.0,
+            56.0,
             "x",
             "x"
           ]
@@ -176,9 +176,9 @@
           "name": "Harry Chace",
           "pdga_number": 131546,
           "is_underdog": true,
-          "season_total": 518.0,
-          "tournaments_played": 12,
-          "times_counted": 6,
+          "season_total": 661.0,
+          "tournaments_played": 15,
+          "times_counted": 7,
           "weekly_scores": [
             59.0,
             30.0,
@@ -193,9 +193,9 @@
             78.0,
             51.0,
             37.0,
-            "x",
-            "x",
-            "x",
+            44.0,
+            55.0,
+            44.0,
             "x",
             "x"
           ]
@@ -210,9 +210,9 @@
           "name": "Ezra Robinson",
           "pdga_number": 50671,
           "is_underdog": false,
-          "season_total": 414.0,
-          "tournaments_played": 13,
-          "times_counted": 4,
+          "season_total": 451.0,
+          "tournaments_played": 16,
+          "times_counted": 7,
           "weekly_scores": [
             9.0,
             18.0,
@@ -227,9 +227,9 @@
             48.0,
             26.0,
             51.0,
-            "x",
-            "x",
-            "x",
+            21.0,
+            7.0,
+            9.0,
             "x",
             "x"
           ]
@@ -238,9 +238,9 @@
           "name": "Aaron Gossage",
           "pdga_number": 35449,
           "is_underdog": false,
-          "season_total": 318.0,
-          "tournaments_played": 13,
-          "times_counted": 9,
+          "season_total": 443.0,
+          "tournaments_played": 16,
+          "times_counted": 10,
           "weekly_scores": [
             9.0,
             8.0,
@@ -255,9 +255,9 @@
             33.0,
             18.0,
             10.0,
-            "x",
-            "x",
-            "x",
+            54.0,
+            66.0,
+            5.0,
             "x",
             "x"
           ]
@@ -266,9 +266,9 @@
           "name": "Adam Hammes",
           "pdga_number": 57365,
           "is_underdog": false,
-          "season_total": 158.0,
-          "tournaments_played": 13,
-          "times_counted": 12,
+          "season_total": 217.0,
+          "tournaments_played": 16,
+          "times_counted": 14,
           "weekly_scores": [
             7.0,
             9.0,
@@ -283,9 +283,9 @@
             4.0,
             12.0,
             17.0,
-            "x",
-            "x",
-            "x",
+            24.0,
+            30.0,
+            5.0,
             "x",
             "x"
           ]
@@ -294,8 +294,8 @@
           "name": "Simon Lizotte",
           "pdga_number": 8332,
           "is_underdog": false,
-          "season_total": 269.0,
-          "tournaments_played": 9,
+          "season_total": 291.0,
+          "tournaments_played": 10,
           "times_counted": 2,
           "weekly_scores": [
             19.0,
@@ -313,7 +313,7 @@
             57.0,
             "x",
             "x",
-            "x",
+            22.0,
             "x",
             "x"
           ]
@@ -322,8 +322,8 @@
           "name": "Ezra Aderhold",
           "pdga_number": 121715,
           "is_underdog": false,
-          "season_total": 567.0,
-          "tournaments_played": 13,
+          "season_total": 703.0,
+          "tournaments_played": 16,
           "times_counted": 2,
           "weekly_scores": [
             50.0,
@@ -339,9 +339,9 @@
             63.0,
             26.0,
             42.0,
-            "x",
-            "x",
-            "x",
+            84.0,
+            40.0,
+            12.0,
             "x",
             "x"
           ]
@@ -350,9 +350,9 @@
           "name": "Gavin Babcock",
           "pdga_number": 80331,
           "is_underdog": false,
-          "season_total": 334.0,
-          "tournaments_played": 13,
-          "times_counted": 8,
+          "season_total": 390.0,
+          "tournaments_played": 16,
+          "times_counted": 10,
           "weekly_scores": [
             39.0,
             60.0,
@@ -367,9 +367,9 @@
             17.0,
             18.0,
             70.0,
-            "x",
-            "x",
-            "x",
+            35.0,
+            4.0,
+            17.0,
             "x",
             "x"
           ]
@@ -378,9 +378,9 @@
           "name": "Cal Lonnquist",
           "pdga_number": 145206,
           "is_underdog": true,
-          "season_total": 821.0,
-          "tournaments_played": 13,
-          "times_counted": 3,
+          "season_total": 962.0,
+          "tournaments_played": 16,
+          "times_counted": 4,
           "weekly_scores": [
             64.0,
             70.0,
@@ -395,9 +395,9 @@
             85.0,
             74.0,
             119.0,
-            "x",
-            "x",
-            "x",
+            71.0,
+            19.0,
+            51.0,
             "x",
             "x"
           ]
